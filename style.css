@@ -159,9 +159,32 @@ grid-row-gap: 4px;
 
 
 
+.browse1, .browse3, .browse4, .browse5, .browse6, .browse7{
+    color: #000000;
+    font-size: 0.7vw; 
+    text-align: right; 
+    margin-right: 1vw;
+    opacity: 0;
+}
+
+.browse2{
+       color: #FFFFFF;
+    font-size: 0.7vw; 
+    text-align: right; 
+    margin-right: 1vw;
+    opacity: 0; 
+}
+
 .div1, .div2, .div3, .div4, .div5, .div6, .div7{
     display: flex;
     flex-direction: column;
+}
+
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover, .div7:hover{
+    .browse1, .browse2, .browse3, .browse4, .browse5, .browse6, .browse7{
+        opacity: 1;
+    }
 }
 
 .allimage, .globalimage, .legibilityimage, .opticalimage, .variableimage, .superimage, .smartimage{
